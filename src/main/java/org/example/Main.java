@@ -7,6 +7,7 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     static void main() {
+        /*
         //Exercicio 1: Crear un array unidimensional
         Scanner sc = new Scanner(System.in);
         double[] grades;
@@ -25,6 +26,7 @@ public class Main {
         }
         System.out.println("A media de todas as notas é " + total / grades.length);
 
+        */
         // Exercicio 2: Arrays impares e pares
 
         int[] even;
@@ -33,11 +35,25 @@ public class Main {
         even = new int[100];
         odd = new int[100];
 
-        for (int i = 0; i < 200; i++) {
-
+        for (int i = 2; i <= 200; i++) {
+            if (i % 2 == 0) {
+                even[i/2-1] = i;
+            }
+        }
+        for (int i = 1; i < 200; i++) {
+            if (i % 2 != 0) {
+                odd[i/2] = i;
+            }
+        }
+        for (int num : even) {
+            System.out.println(num);
         }
 
-        // Work plz
+        for (int numo : odd) {
+            System.out.println(numo);
+        }
+
+        //Exercicio ArrayList 1
 
         // Código ata aquí
     }
