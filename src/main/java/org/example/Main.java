@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class Main {
     static void main() {
         Scanner sc = new Scanner(System.in);
+
         /*
         //Exercicio 1: Crear un array unidimensional
         double[] grades;
@@ -29,7 +30,7 @@ public class Main {
 
 
         // Exercicio 2: Arrays impares e pares
-
+        
         int[] even;
         int[] odd;
 
@@ -53,7 +54,7 @@ public class Main {
         for (int numo : odd) {
             System.out.println(numo);
         }
-        */
+
 
         //Exercicio ArrayList 1
 
@@ -72,14 +73,11 @@ public class Main {
             System.out.println(gradle);
             total += gradle;
         }
+        */
+        // StringOperations
+        StringOperations ops = new StringOperations("Cadea", "Cad");
 
-
-
-
-
-
-
-
+        ops.reverseString("Cadea");
 
 
 
