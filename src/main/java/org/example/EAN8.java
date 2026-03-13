@@ -1,7 +1,7 @@
 package org.example;
 
 import java.sql.SQLOutput;
-
+/*
 public class EAN8 {
 
     private static int calcularDixitoControl(String codigo) {
@@ -11,3 +11,4 @@ public class EAN8 {
         }
     }
 }
+*/
