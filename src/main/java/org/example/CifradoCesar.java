@@ -1,11 +1,24 @@
 package org.example;
 
+import java.util.Scanner;
+
+
 public class CifradoCesar {
+    Scanner scanner = new Scanner(System.in);
+    /*
     private final static int LONXITUDE_ALFABETO = 'Z' - 'A' + 1;
 
-    public static String cifrado(String mensaxeClar, int desprazamento) {
-        StringBuilder resultado = new StringBuilder();
-        System.out.println(desprazamento % LONXITUDE_ALFABETO);
-        return("I");
+    private String text = scanner.nextLine();
+    private int shift = scanner.nextInt();
+    public static String cifrado(String text, int shift) {
+        String resultado = "";
+
+        for (int i = 0; i < text.length(); i++) {
+            resultado += (text.charAt(i) + shift);
+        }
+        return resultado;
     }
+    */
+
+
 }
